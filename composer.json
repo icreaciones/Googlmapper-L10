@@ -24,23 +24,23 @@
     },
     "autoload": {
         "psr-4": {
-            "Cornford\\Googlmapper\\": "src/"
+            "icreaciones\\Googlmapper\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "spec\\Cornford\\Googlmapper": "spec/",
-            "tests\\Cornford\\Googlmapper": "tests/"
+            "spec\\icreaciones\\Googlmapper": "spec/",
+            "tests\\icreaciones\\Googlmapper": "tests/"
         }
     },
     "minimum-stability": "stable",
     "extra": {
         "laravel": {
             "providers": [
-                "Cornford\\Googlmapper\\MapperServiceProvider"
+                "icreaciones\\Googlmapper\\MapperServiceProvider"
             ],
             "aliases": {
-                "Mapper": "Cornford\\Googlmapper\\Facades\\MapperFacade"
+                "Mapper": "icreaciones\\Googlmapper\\Facades\\MapperFacade"
             }
         }
     },

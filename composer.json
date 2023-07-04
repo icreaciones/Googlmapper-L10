@@ -33,7 +33,7 @@
             "tests\\icreaciones\\Googlmapper": "tests/"
         }
     },
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "extra": {
         "laravel": {
             "providers": [
